@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>False memories: Can You Remember Something That Never Happened? — Circuit Breaker</title>
+  <meta name="description" content="How reliable are your memories? And could you be remembering something that never actually happened?">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="../favicon.png" sizes="64x64">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <script>document.documentElement.classList.replace("no-js","js")</script>
+</head>
+<body class="sub">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="../index.html">
+      <span class="brand-mark"><img src="../assets/mark.png" alt="" width="46" height="46"></span>
+      <span class="brand-name">Circuit<br>Breaker</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+      <span class="sr-only">Menu</span>
+      <span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" data-nav>
+      <a href="../index.html">Home</a>
+      <a href="../episodes.html" aria-current="page">Episodes</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="content" class="page episode">
+    <div class="wrap">
+      <p class="back"><a href="../episodes.html">All episodes</a></p>
+      <article class="feature episode-card" data-types="memory">
+        <img class="feature-art" src="../assets/artwork.jpg" alt="Circuit Breaker cover art">
+        <div class="feature-body">
+          <p class="eyebrow">17 Oct 2026 · 6:05</p>
+          <h1>False memories: Can You Remember Something That Never Happened?</h1>
+          <p class="ep-theory">Lost in the Mall experiment</p>
+          <p class="ep-tags"><span>Memory</span></p>
+          <div class="feature-actions">
+            <button class="btn solid" type="button" data-play="ep-2">
+              <span class="eq" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span data-feature-label>Play episode</span>
+            </button>
+          </div>
+        </div>
+      </article>
+      <div class="episode-notes">
+        <p>How reliable are your memories? And could you be remembering something that never actually happened?</p>
+        <p>In this episode of Circuit Breaker: Rewiring Your Decisions, we explore the Lost in the Mall Study — a fascinating experiment by psychologist Elizabeth Loftus investigating the malleability of human memory. The research raises some unsettling questions about how our recollections are formed, how easily they can be influenced, and whether we can always trust what we remember.</p>
+        <p>But if our memories aren’t as reliable as we think, what does that mean for the way we understand our own past? Discover why confidence doesn’t necessarily mean accuracy, and how the mind’s ability to reconstruct memories can blur the line between what really happened and what we believe happened.</p>
+      <h2>Studies and links</h2>
+      <ul class="studies">
+          <li><a href="https://img3.reoveme.com/m/21e4113311781789.pdf" target="_blank" rel="noopener">The Formation of False Memories | Elizabeth F. Loftus and Jacqueline Pickrell</a></li>
+          <li><a href="https://www.simplypsychology.org/false-memory.html" target="_blank" rel="noopener">False Memory in Psychology | Simply Psychology</a></li>
+      </ul>
+      </div>
+      <nav class="episode-turn" aria-label="More episodes">
+      <a class="turn" href="illusion-of-control.html">
+        <small>Newer</small>
+        <span>Luck or skill? Why we think we can control random events</span>
+      </a>
+      <a class="turn" href="barnum-forer-effect.html">
+        <small>Older</small>
+        <span>Personally accurate? Why Personality Descriptions Describe You Perfectly</span>
+      </a>
+      </nav>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p>Circuit Breaker · Rewiring Your Decisions</p>
+      <p>© 2026 Ami To</p>
+    </div>
+  </footer>
+
+  <div class="dock" id="dock" hidden>
+    <button class="ep-play" type="button" id="dockPlay" aria-label="Pause">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5-11-6.5z"/></svg>
+    </button>
+    <div class="dock-id">
+      <p class="eyebrow">Now playing</p>
+      <p class="dock-title" id="dockTitle"></p>
+    </div>
+    <div class="scrub">
+      <div class="scrub-bar" id="scrub" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <span id="scrubFill"></span>
+      </div>
+      <p class="scrub-time"><span id="timeNow">0:00</span><span id="timeDur">0:00</span></p>
+    </div>
+    <a class="text-link" id="dockLink" href="lost-in-the-mall-experiment.html">Episode page</a>
+  </div>
+  <audio id="player" preload="none"></audio>
+  <script src="../main.js"></script>
+</body>
+</html>

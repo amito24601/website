@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Circuit Breaker</title>
+  <meta name="description" content="Write to Circuit Breaker: Rewiring Your Decisions.">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="favicon.png" sizes="64x64">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.replace("no-js","js")</script>
+</head>
+<body class="sub">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><img src="assets/mark.png" alt="" width="46" height="46"></span>
+      <span class="brand-name">Circuit<br>Breaker</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+      <span class="sr-only">Menu</span>
+      <span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" data-nav>
+      <a href="index.html">Home</a>
+      <a href="episodes.html">Episodes</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main id="content" class="page contact">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h1>Contact Us!</h1>
+        <p class="section-lede"> If you have any questions, episode ideas, or a study you think belongs on Circuit Breaker, send us a message using the following email</p>
+        <p class="mail"><a href="mailto:circuitbreaker23@outlook.com">circuitbreaker23@outlook.com</a></p>
+      </div>
+      <form class="card-form" id="contact-form" action="mailto:circuitbreaker23@outlook.com" method="post" enctype="text/plain" novalidate>
+        <label>Name
+          <input name="name" type="text" autocomplete="name" required maxlength="80">
+        </label>
+        <label>Email
+          <input name="email" type="email" autocomplete="email" required maxlength="120">
+        </label>
+        <label>Message
+          <textarea name="message" rows="5" required maxlength="2000"></textarea>
+        </label>
+        <p class="form-error" id="form-error" role="alert" hidden></p>
+        <p class="form-ok" id="form-ok" role="status" hidden>Your email app should open with this message ready to send.</p>
+        <button class="btn solid" type="submit">Send</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p>Circuit Breaker · Rewiring Your Decisions</p>
+      <p>© 2026 Ami To</p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All eyes on me? Why We Think Everyone Is Watching — Circuit Breaker</title>
+  <meta name="description" content="Have you ever worried that everyone noticed something embarrassing you did — when they may not have noticed at all?">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="../favicon.png" sizes="64x64">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <script>document.documentElement.classList.replace("no-js","js")</script>
+</head>
+<body class="sub">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="../index.html">
+      <span class="brand-mark"><img src="../assets/mark.png" alt="" width="46" height="46"></span>
+      <span class="brand-name">Circuit<br>Breaker</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+      <span class="sr-only">Menu</span>
+      <span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" data-nav>
+      <a href="../index.html">Home</a>
+      <a href="../episodes.html" aria-current="page">Episodes</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="content" class="page episode">
+    <div class="wrap">
+      <p class="back"><a href="../episodes.html">All episodes</a></p>
+      <article class="feature episode-card" data-types="bias social">
+        <img class="feature-art" src="../assets/artwork.jpg" alt="Circuit Breaker cover art">
+        <div class="feature-body">
+          <p class="eyebrow">7 Mar 2026 · 5:04</p>
+          <h1>All eyes on me? Why We Think Everyone Is Watching</h1>
+          <p class="ep-theory">Spotlight effect</p>
+          <p class="ep-tags"><span>Biases</span><span>Social dynamics</span></p>
+          <div class="feature-actions">
+            <button class="btn solid" type="button" data-play="ep-25">
+              <span class="eq" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span data-feature-label>Play episode</span>
+            </button>
+          </div>
+        </div>
+      </article>
+      <div class="episode-notes">
+        <p>Have you ever worried that everyone noticed something embarrassing you did — when they may not have noticed at all?</p>
+        <p>In this episode of Circuit Breaker: Rewiring Your Decisions, we explore the Spotlight Effect — the tendency to overestimate how much other people notice, remember, or pay attention to us. We look at why our own experiences can feel so visible, and how that can shape the way we act around others.</p>
+        <p>But what if the spotlight we feel is mostly in our own minds? Discover how the Spotlight Effect can influence our confidence, heighten self-consciousness, and remind us that other people may be far less focused on us than we imagine.</p>
+      <h2>Studies and links</h2>
+      <ul class="studies">
+          <li><a href="https://www.psychologyib.com/uploads/1/1/7/5/11758934/the_spotlight_effect_-_ib_psychology.pdf" target="_blank" rel="noopener">The Spotlight Effect in Social Judgment: An Egocentric Bias in Estimates of the Salience of One&#x27;s Own Actions and Appearance | Journal of Personality and Social Psychology 2000, Vol. 78, No. 2, 211-222 | Thomas Gilovich, Victoria Husted Medvec and Kenneth Savitsky | psychologyib.com amp78020211.tif</a></li>
+          <li><a href="https://thedecisionlab.com/biases/spotlight-effect" target="_blank" rel="noopener">Why do we feel like we stand out more than we really do? | Decision Lab Spotlight effect - The Decision Lab</a></li>
+      </ul>
+      </div>
+      <nav class="episode-turn" aria-label="More episodes">
+      <a class="turn" href="false-consensus-effect.html">
+        <small>Newer</small>
+        <span>Everyone agrees... right? Why We Think Others Think Like Us</span>
+      </a>
+      <a class="turn" href="self-fulfilling-prophecy.html">
+        <small>Older</small>
+        <span>Becoming your expectations: How Beliefs Shape Reality</span>
+      </a>
+      </nav>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p>Circuit Breaker · Rewiring Your Decisions</p>
+      <p>© 2026 Ami To</p>
+    </div>
+  </footer>
+
+  <div class="dock" id="dock" hidden>
+    <button class="ep-play" type="button" id="dockPlay" aria-label="Pause">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5-11-6.5z"/></svg>
+    </button>
+    <div class="dock-id">
+      <p class="eyebrow">Now playing</p>
+      <p class="dock-title" id="dockTitle"></p>
+    </div>
+    <div class="scrub">
+      <div class="scrub-bar" id="scrub" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <span id="scrubFill"></span>
+      </div>
+      <p class="scrub-time"><span id="timeNow">0:00</span><span id="timeDur">0:00</span></p>
+    </div>
+    <a class="text-link" id="dockLink" href="spotlight-effect.html">Episode page</a>
+  </div>
+  <audio id="player" preload="none"></audio>
+  <script src="../main.js"></script>
+</body>
+</html>

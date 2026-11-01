@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Circuit Breaker — Rewiring Your Decisions</title>
+  <meta name="description" content="Circuit Breaker: Rewiring Your Decisions. The podcast that decodes the psychology behind the choices you make, hosted by Ami To.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:title" content="Circuit Breaker — Rewiring Your Decisions">
+  <meta property="og:description" content="The premier podcast exploring the neuroscience of choice and human behavior.">
+  <meta property="og:image" content="assets/logo.jpg">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="favicon.png" sizes="64x64">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastSeries",
+    "name": "Circuit Breaker: Rewiring Your Decisions",
+    "author": { "@type": "Person", "name": "Ami To" },
+    "description": "The podcast that helps you stop the old mental loops and start building a better life. Each episode decodes the psychology behind the choices you make.",
+    "url": "https://redcircle.com/shows/circuit-breaker-rewiring-your-decisions",
+    "webFeed": "https://feeds.redcircle.com/11bf7df2-88cf-4677-8a74-20e997215514",
+    "image": "assets/artwork.jpg",
+    "numberOfEpisodes": 42,
+    "inLanguage": "en"
+  }
+  </script>
+  <script>document.documentElement.classList.replace("no-js","js")</script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html">
+      <span class="brand-mark">
+        <img src="assets/mark.png" alt="" width="46" height="46">
+      </span>
+      <span class="brand-name">Circuit<br>Breaker</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+      <span class="sr-only">Menu</span>
+      <span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" data-nav>
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="episodes.html">Episodes</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section class="hero" id="top">
+      <svg class="circuits" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <defs>
+          <filter id="nodeglow" x="-40%" y="-40%" width="180%" height="180%">
+            <feGaussianBlur stdDeviation="2.4" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <g class="board board-left" fill="none" stroke="#1a8fff" stroke-width="1.35" filter="url(#nodeglow)">
+          <path d="M-10 78 H150 V132 H310 V168 H470"/>
+          <path d="M-10 168 H70 V214 H210"/>
+          <path d="M-10 250 H120 V300 H250 V348 H390"/>
+          <path d="M40 348 V420 H190 V470 H80"/>
+          <path d="M-10 430 H160 V500 H300 V540"/>
+          <path d="M-10 560 H90 V620 H240 V670 H410"/>
+          <path d="M120 670 V740 H30"/>
+          <path d="M-10 760 H180 V810 H340"/>
+          <path d="M210 132 V80 H300"/>
+          <path d="M250 300 H330 V250 H410"/>
+        </g>
+        <g class="board board-right" fill="none" stroke="#1a8fff" stroke-width="1.35" filter="url(#nodeglow)">
+          <path d="M1610 96 H1460 V150 H1280 V190 H1120"/>
+          <path d="M1610 200 H1500 V250 H1360"/>
+          <path d="M1610 290 H1420 V340 H1260 V390 H1100"/>
+          <path d="M1360 390 V460 H1480 V520 H1610"/>
+          <path d="M1610 500 H1400 V560 H1240 V610"/>
+          <path d="M1610 640 H1470 V700 H1300 V750 H1140"/>
+          <path d="M1470 750 V820 H1610"/>
+          <path d="M1280 150 H1200 V110 H1100"/>
+          <path d="M1260 340 H1180 V300 H1080"/>
+        </g>
+        <g fill="#7ecbff" filter="url(#nodeglow)">
+          <circle cx="470" cy="168" r="3.2"/><circle cx="210" cy="214" r="2.6"/>
+          <circle cx="390" cy="348" r="3.2"/><circle cx="80" cy="470" r="2.6"/>
+          <circle cx="300" cy="540" r="3"/><circle cx="410" cy="670" r="3.2"/>
+          <circle cx="30" cy="740" r="2.4"/><circle cx="340" cy="810" r="3"/>
+          <circle cx="300" cy="80" r="2.6"/><circle cx="410" cy="250" r="2.6"/>
+          <circle cx="150" cy="78" r="2.2"/><circle cx="120" cy="250" r="2.2"/>
+          <circle cx="1120" cy="190" r="3.2"/><circle cx="1360" cy="250" r="2.6"/>
+          <circle cx="1100" cy="390" r="3.2"/><circle cx="1240" cy="610" r="3"/>
+          <circle cx="1140" cy="750" r="3.2"/><circle cx="1100" cy="110" r="2.6"/>
+          <circle cx="1080" cy="300" r="2.6"/><circle cx="1460" cy="96" r="2.2"/>
+          <circle cx="1420" cy="290" r="2.2"/><circle cx="1400" cy="500" r="2.4"/>
+        </g>
+        <g fill="#d7f1ff">
+          <circle cx="470" cy="168" r="1.3"/><circle cx="390" cy="348" r="1.3"/>
+          <circle cx="410" cy="670" r="1.3"/><circle cx="1120" cy="190" r="1.3"/>
+          <circle cx="1100" cy="390" r="1.3"/><circle cx="1140" cy="750" r="1.3"/>
+        </g>
+      </svg>
+      <div class="hero-shade" aria-hidden="true"></div>
+
+      <div class="hero-copy">
+        <div class="emblem-wrap">
+          <img src="assets/mark.png" alt="Circuit Breaker logo: a circuit brain split by a lightning bolt.">
+        </div>
+        <h1>Rewiring your decisions</h1>
+        <p class="lede">The premier podcast exploring the neuroscience<br> of choice and human behavior.</p>
+        <div class="actions">
+          <div class="action-row">
+            <button class="btn solid" type="button" id="listenBtn" data-play="latest">
+              <span class="eq" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span data-listen-label>Listen now</span>
+            </button>
+            <a class="btn ghost" href="episodes.html">Latest episode</a>
+          </div>
+          <div class="action-row reflect" aria-hidden="true">
+            <span class="btn solid"><span data-listen-label>Listen now</span></span>
+            <span class="btn ghost">Latest episode</span>
+          </div>
+        </div>
+      </div>
+
+      <img class="phones" src="assets/headphones.jpg" alt="">
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p>Circuit Breaker · Rewiring Your Decisions</p>
+      <p>© 2026 Ami To</p>
+    </div>
+  </footer>
+
+  <div class="dock" id="dock" hidden>
+    <button class="ep-play" type="button" id="dockPlay" aria-label="Pause">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5-11-6.5z"/></svg>
+    </button>
+    <div class="dock-id">
+      <p class="eyebrow">Now playing</p>
+      <p class="dock-title" id="dockTitle"></p>
+    </div>
+    <div class="scrub">
+      <div class="scrub-bar" id="scrub" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <span id="scrubFill"></span>
+      </div>
+      <p class="scrub-time"><span id="timeNow">0:00</span><span id="timeDur">0:00</span></p>
+    </div>
+    <a class="text-link" id="dockLink" href="episode/illusion-of-control.html">Episode page</a>
+  </div>
+
+  <audio id="player" preload="none"></audio>
+  <script src="main.js"></script>
+</body>
+</html>

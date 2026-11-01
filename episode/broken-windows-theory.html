@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Broken windows: How Small Signs of Disorder Change Behaviour — Circuit Breaker</title>
+  <meta name="description" content="Why can one small sign of disorder make an entire place feel like nobody cares?">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="../favicon.png" sizes="64x64">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <script>document.documentElement.classList.replace("no-js","js")</script>
+</head>
+<body class="sub">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="../index.html">
+      <span class="brand-mark"><img src="../assets/mark.png" alt="" width="46" height="46"></span>
+      <span class="brand-name">Circuit<br>Breaker</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+      <span class="sr-only">Menu</span>
+      <span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" data-nav>
+      <a href="../index.html">Home</a>
+      <a href="../episodes.html" aria-current="page">Episodes</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="content" class="page episode">
+    <div class="wrap">
+      <p class="back"><a href="../episodes.html">All episodes</a></p>
+      <article class="feature episode-card" data-types="social">
+        <img class="feature-art" src="../assets/artwork.jpg" alt="Circuit Breaker cover art">
+        <div class="feature-body">
+          <p class="eyebrow">18 Jul 2026 · 7:08</p>
+          <h1>Broken windows: How Small Signs of Disorder Change Behaviour</h1>
+          <p class="ep-theory">Broken windows theory</p>
+          <p class="ep-tags"><span>Social dynamics</span></p>
+          <div class="feature-actions">
+            <button class="btn solid" type="button" data-play="ep-10">
+              <span class="eq" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span data-feature-label>Play episode</span>
+            </button>
+          </div>
+        </div>
+      </article>
+      <div class="episode-notes">
+        <p>Why can one small sign of disorder make an entire place feel like nobody cares?</p>
+        <p>In this episode of Circuit Breaker: Rewiring Your Decisions, we explore the Broken Windows Theory — the idea that visible signs of neglect can influence how people perceive and behave in their surroundings. We look at how small cues in an environment may shape our expectations, our sense of what’s acceptable, and the choices we make.</p>
+        <p>But how much does our environment influence the way we act — and can small changes create a wider shift in behaviour? Discover how the signals around us can shape our actions, and why seemingly minor details may have a bigger impact than we expect.</p>
+      <h2>Studies and links</h2>
+      <ul class="studies">
+          <li><a href="https://www.simplypsychology.org/broken-windows-theory.html" target="_blank" rel="noopener">Broken Windows Theory | Simply Psychology</a></li>
+          <li><a href="https://media4.manhattan-institute.org/pdf/_atlantic_monthly-broken_windows.pdf" target="_blank" rel="noopener">Broken Windows | James Q Wilson and George L Kelling</a></li>
+          <li><a href="https://www.cognitionandculture.net/blogs/nicolas-claidires-blog/experimental-evidence-for-the-broken-window-theory/index.html" target="_blank" rel="noopener">Experimental evidence for the Broken Windows Theory | international cognition &amp; culture institute</a></li>
+      </ul>
+      </div>
+      <nav class="episode-turn" aria-label="More episodes">
+      <a class="turn" href="chameleon-effect.html">
+        <small>Newer</small>
+        <span>Like-minded: Why We Imitate Those Around Us</span>
+      </a>
+      <a class="turn" href="gamblers-fallacy.html">
+        <small>Older</small>
+        <span>Due for a win? Why We See Patterns in Randomness</span>
+      </a>
+      </nav>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p>Circuit Breaker · Rewiring Your Decisions</p>
+      <p>© 2026 Ami To</p>
+    </div>
+  </footer>
+
+  <div class="dock" id="dock" hidden>
+    <button class="ep-play" type="button" id="dockPlay" aria-label="Pause">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5-11-6.5z"/></svg>
+    </button>
+    <div class="dock-id">
+      <p class="eyebrow">Now playing</p>
+      <p class="dock-title" id="dockTitle"></p>
+    </div>
+    <div class="scrub">
+      <div class="scrub-bar" id="scrub" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <span id="scrubFill"></span>
+      </div>
+      <p class="scrub-time"><span id="timeNow">0:00</span><span id="timeDur">0:00</span></p>
+    </div>
+    <a class="text-link" id="dockLink" href="broken-windows-theory.html">Episode page</a>
+  </div>
+  <audio id="player" preload="none"></audio>
+  <script src="../main.js"></script>
+</body>
+</html>
