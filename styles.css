@@ -82,7 +82,7 @@ h2 { margin: 0 0 14px; font-size: clamp(2rem, 4vw, 3.3rem); }
 }
 .feature h1,
 .feature h2 {
-  margin: 0 0 2px;
+  margin: 0 0 10px;
   font-size: clamp(1.45rem, 2vw, 1.9rem);
   letter-spacing: -0.02em;
 }
@@ -424,15 +424,7 @@ main.page { padding: calc(var(--header) + 56px) 0 88px; }
   padding: 18px 8px;
   border-bottom: 1px solid rgba(80, 168, 255, 0.16);
 }
-.ep-list h3 { margin: 0 0 2px; font-size: 1.08rem; font-weight: 600; letter-spacing: 0; }
-.feature .ep-theory,
-.ep-list .ep-theory {
-  margin: 0 0 8px;
-  color: var(--blue-hot);
-  font-size: 0.95rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-}
+.ep-list h3 { margin: 0 0 8px; font-size: 1.08rem; font-weight: 600; letter-spacing: 0; }
 .ep-list h3 a { text-decoration: none; }
 .ep-list h3 a:hover { color: var(--blue-hot); }
 .ep-list p { margin: 0; color: var(--dim); font-size: 0.95rem; }
